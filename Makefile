@@ -1,6 +1,6 @@
 .DEFAULT_GOAL:=basic
 
-basic: backup crd
+basic: crd
 
 SENV = echo "skipping setting LIB and INCLUDE" &&
 
